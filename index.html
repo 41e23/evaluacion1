@@ -3,39 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
+    <title>FastFood Express - Comida Rápida</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Sitio</h1>
-        <p>Descripción breve del sitio</p>
+        <h1>FastFood Express</h1>
+        <p>¡La mejor comida rápida de la ciudad!</p>
     </header>
 
     <nav>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
     <main>
-        <article>
-            <h2>Artículo Principal</h2>
-            <p>Contenido principal del sitio. Aquí puedes agregar más información sobre tu proyecto o empresa.</p>
-            <img src="https://picsum.photos/200/150?random=1" alt="Logo del sitio" width="200">
-        </article>
+        <section id="inicio" class="hero">
+            <h2>¡Disfruta de nuestros deliciosos platillos!</h2>
+            <p>Hamburguesas, papas fritas y más, preparados al instante.</p>
+            <img src="https://picsum.photos/400/300?random=3" alt="Hamburguesa deliciosa" width="400">
+            <a href="#menu" class="btn">Ver Menú</a>
+        </section>
 
-        <aside>
-            <h3>Información Adicional</h3>
-            <p>Contenido complementario o referencias.</p>
-            <img src="https://picsum.photos/150/100?random=2" alt="Imagen adicional" width="150">
-        </aside>
+        <section id="menu">
+            <h2>Nuestro Menú</h2>
+            <div class="menu-item">
+                <img src="https://picsum.photos/200/150?random=4" alt="Hamburguesa Clásica" width="200">
+                <h3>Hamburguesa Clásica</h3>
+                <p>$5.99 - Carne jugosa con queso y vegetales frescos.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://picsum.photos/200/150?random=5" alt="Papas Fritas" width="200">
+                <h3>Papas Fritas</h3>
+                <p>$2.99 - Crujientes y doradas, perfectas para compartir.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://picsum.photos/200/150?random=6" alt="Refresco" width="200">
+                <h3>Refresco Grande</h3>
+                <p>$1.99 - Refrescante y burbujeante.</p>
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>En FastFood Express, nos apasiona servir comida rápida de calidad. Desde 2020, hemos sido el lugar favorito para familias y amigos que buscan sabor y rapidez.</p>
+            <img src="https://picsum.photos/300/200?random=7" alt="Nuestro restaurante" width="300">
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Dirección: Calle Principal 123, Ciudad</p>
+            <p>Teléfono: (123) 456-7890</p>
+            <p>Email: info@fastfoodexpress.com</p>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        <p>&copy; 2024 FastFood Express. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
